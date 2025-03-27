@@ -1,5 +1,6 @@
 # Secrets
-.streamlit/secrets.toml
+.streamlit/secrets*
+*.toml
 
 # Python
 __pycache__/
@@ -31,18 +32,15 @@ Thumbs.db
 *.db
 
 # Project specific
-.streamlit/secrets.toml
 *.log
 butsd.code-workspace
 
 # Ne PAS ignorer ces dossiers essentiels
 !.assets/
 !.data/
-!.streamlit/
 !.streamlit/config.toml
 
 # Additional
-.streamlit/
 __pycache__/
 *.pyc
 venv/
