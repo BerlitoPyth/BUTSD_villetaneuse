@@ -1,6 +1,5 @@
 # Secrets
-.streamlit/secrets*
-*.toml
+.streamlit/secrets.toml
 
 # Python
 __pycache__/
@@ -38,6 +37,7 @@ butsd.code-workspace
 # Ne PAS ignorer ces dossiers essentiels
 !.assets/
 !.data/
+!.streamlit/
 !.streamlit/config.toml
 
 # Additional
